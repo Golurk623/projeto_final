@@ -1,11 +1,11 @@
 <?php
 
     class Conexao{
-        static $host = '127.0.0.1';
-        static $user = 'root';
-        static $pass = '';
-        static $database = 'db_projeto_final_3e';
-        static $port = '3366';
+        static $host = 'sql202.epizy.com';
+        static $user = 'epiz_32120399';
+        static $pass = 'UiJuA3jVlTnF';
+        static $database = 'epiz_32120399_projeto_final';
+        static $port = '3306';
         static $con;
 
         public static function getConnection(){
